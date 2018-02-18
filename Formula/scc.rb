@@ -6,7 +6,7 @@ class Scc < Formula
 
   bottle :unneeded
 
-  depends_on "ltctools"
+  depends_on "ltc-tools"
   depends_on "gbevin/tools/sendmidi"
   depends_on "gbevin/tools/receivemidi"
 
