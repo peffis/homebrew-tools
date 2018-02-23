@@ -11,8 +11,8 @@ class Jack2 < Formula
   depends_on "readline"
 
   def install
-    system "./waf", "configure", "--opus=no", "--readline=no"
+    system "./waf", "configure", "--opus=no", "--readline=no", "--prefix=#{prefix}"
     system "./waf", "build"
-    system "./waf", "install", "-f"
+    system "./waf", "install"
   end
 end
