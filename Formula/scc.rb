@@ -2,11 +2,11 @@ class Scc < Formula
   desc "Stagecast controller"
   homepage "https://stagecast.io"
   url "https://stagecast.se/media/scc-0.1.2.tar.gz"
-  sha256 "4691cd6bf39fd31eb24fcb6bb1e337b9ba1eb17d0a6b8ac446fede8fc850c142"
+  sha256 "2da06dc2d4e4427fff06559ffad605ea233acf0ea3b177befd238acf1f407527"
 
   bottle :unneeded
 
-  depends_on "ltc-tools"
+  depends_on "peffis/tools/ltc-tools"
   depends_on "gbevin/tools/sendmidi"
   depends_on "gbevin/tools/receivemidi"
 
