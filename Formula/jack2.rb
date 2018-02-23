@@ -13,6 +13,6 @@ class Jack2 < Formula
   def install
     system "./waf", "configure", "--opus=no", "--readline=no"
     system "./waf", "build"
-    system "sudo", "./waf", "install"
+    system "./waf", "install"
   end
 end
