@@ -2,7 +2,7 @@ class Scc < Formula
   desc "Stagecast controller"
   homepage "https://stagecast.io"
   url "https://stagecast.se/media/scc-0.1.2.tar.gz"
-  sha256 "2da06dc2d4e4427fff06559ffad605ea233acf0ea3b177befd238acf1f407527"
+  sha256 "e7e535075190026cf42588da88fd86d75e0aec606eae43d148e2ada92a82389c"
 
   bottle :unneeded
 
