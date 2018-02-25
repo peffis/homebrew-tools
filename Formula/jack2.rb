@@ -1,7 +1,7 @@
 class Jack2 < Formula
   desc "Audio Connection Kit - Jack2"
   homepage "http://jackaudio.org"
-  url "git@github.com:jackaudio/jack2.git", :using => :git
+  url "https://github.com/jackaudio/jack2.git", :using => :git
 
   depends_on "pkg-config" => :build
   depends_on "aften"
