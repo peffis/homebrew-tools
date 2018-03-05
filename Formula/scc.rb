@@ -1,8 +1,8 @@
 class Scc < Formula
   desc "Stagecast controller"
   homepage "https://stagecast.io"
-  url "https://stagecast.se/media/scc-0.1.5.tar.gz"
-  sha256 "22517eed2b8935d0e9a0c648dd3a595ef5f9ea259066f3e61fa6fae688c6c90f"
+  url "https://stagecast.se/media/scc-0.1.6.tar.gz"
+  sha256 "b0c6ffcab7072b7d6e8b4305840bb73754e19e4393d4d07f967d26c08844c562"
 
   bottle :unneeded
 
