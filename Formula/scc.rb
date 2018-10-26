@@ -11,7 +11,8 @@ class Scc < Formula
   depends_on "gbevin/tools/receivemidi"
 
   def install
-    bin.install "scc" "runscc.sh"
+    bin.install "scc"
+    bin.install "runscc.sh"
   end
 
   test do
