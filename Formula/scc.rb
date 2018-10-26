@@ -1,8 +1,8 @@
 class Scc < Formula
   desc "Stagecast controller"
   homepage "https://stagecast.io"
-  url "https://stagecast.se/media/scc-0.1.7.tar.gz"
-  sha256 "734f23177aa4d2f9747ec5e5be179ab6d5c758f66cacf991d0a88350b70cd284"
+  url "https://stagecast.se/media/scc-1.0.0.tar.gz"
+  sha256 "a7a9d7e799883c90ea6703aaf11cd02d1f1960c747189e119157a146b113dafe"
 
   bottle :unneeded
 
@@ -11,7 +11,7 @@ class Scc < Formula
   depends_on "gbevin/tools/receivemidi"
 
   def install
-    bin.install "scc"
+    bin.install "scc" "runscc.sh"
   end
 
   test do
